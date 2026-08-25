@@ -1,0 +1,159 @@
+{
+    "books": [
+        {
+            "book_id": "B-EM0SG",
+            "title": "khushiiii gum",
+            "author": "pk.mehta",
+            "copies": 45,
+            "available_copies": 45,
+            "added_on": "2026-08-21 18:13:28"
+        },
+        {
+            "book_id": "B-1DU26",
+            "title": "alone",
+            "author": "vp.singh",
+            "copies": 78,
+            "available_copies": 69,
+            "added_on": "2026-08-21 18:13:55"
+        },
+        {
+            "book_id": "B-AJ3TG",
+            "title": "suryavanshi",
+            "author": "67",
+            "copies": 89,
+            "available_copies": 89,
+            "added_on": "2026-08-21 18:14:38"
+        },
+        {
+            "book_id": "B-1FXIN",
+            "title": "SAraswati",
+            "author": "vipin geet",
+            "copies": 90,
+            "available_copies": 90,
+            "added_on": "2026-08-21 18:59:32"
+        },
+        {
+            "book_id": "B-UW3IU",
+            "title": "peoplw",
+            "author": "sunit shetty",
+            "copies": 88,
+            "available_copies": 88,
+            "added_on": "2026-08-21 19:00:35"
+        },
+        {
+            "book_id": "B-6LQF4",
+            "title": "stinky people",
+            "author": "th.viml",
+            "copies": 75,
+            "available_copies": 75,
+            "added_on": "2026-08-21 19:02:30"
+        },
+        {
+            "book_id": "B-H4XB8",
+            "title": "precious",
+            "author": "kp",
+            "copies": 10,
+            "available_copies": 8,
+            "added_on": "2026-08-25 18:44:22"
+        }
+    ],
+    "members": [
+        {
+            "Member_name": "khushi",
+            "Member_id": "M-UBQT7",
+            "added_on": "2026-08-21 19:19:41"
+        },
+        {
+            "Member_name": "vivek",
+            "Member_id": "M-MH5FY",
+            "added_on": "2026-08-24 18:22:32"
+        },
+        {
+            "Member_name": "muski",
+            "Member_id": "M-JE1GB",
+            "added_on": "2026-08-24 19:39:28"
+        },
+        {
+            "Member_name": "pravesh",
+            "Member_id": "M-NN02K",
+            "added_on": "2026-08-25 18:44:53"
+        }
+    ],
+    "transactions": [
+        {
+            "transaction_id": "T-0LLB7",
+            "member_name": "khushi",
+            "book_name": "alone",
+            "borrowed_copies": 0
+        },
+        {
+            "transaction_id": "T-SY2LW",
+            "member_name": "khushi",
+            "book_name": "alone",
+            "borrowed_copies": 0
+        },
+        {
+            "transaction_id": "T-FSRT5",
+            "member_name": "khushi",
+            "book_name": "alone",
+            "borrowed_copies": 0,
+            "issued_date": "2026-08-23 20:31:24",
+            "deadline": "2026-09-06 20:31:24"
+        },
+        {
+            "transaction_id": "T-CB6PW",
+            "member_name": "vivek",
+            "book_name": "alone",
+            "borrowed_copies": 0,
+            "issued_date": "2026-08-24 18:22:50",
+            "deadline": "2026-09-07 18:22:50"
+        },
+        {
+            "transaction_id": "T-D2IN8",
+            "member_name": "muski",
+            "book_name": "alone",
+            "borrowed_copies": 0,
+            "issued_date": "2026-08-24 19:39:42",
+            "deadline": "2026-09-07 19:39:42",
+            "status": "returned"
+        },
+        {
+            "transaction_id": "T-DGT1Q",
+            "member_name": "muski",
+            "book_name": "alone",
+            "borrowed_copies": 0,
+            "issued_date": "2026-08-24 19:46:14",
+            "deadline": "2026-09-07 19:46:14",
+            "status": "returned"
+        },
+        {
+            "transaction_id": "T-MQNZT",
+            "member_name": "muski",
+            "book_name": "alone",
+            "borrowed_copies": 1,
+            "issued_date": "2026-08-24 19:49:57",
+            "deadline": "2026-09-07 19:49:57",
+            "status": "returned"
+        },
+        {
+            "transaction_id": "T-1BY44",
+            "member_name": "pravesh",
+            "book_name": "precious",
+            "borrowed_copies": 0,
+            "issued_date": "2026-08-25 18:45:52",
+            "deadline": "2026-09-08 18:45:52",
+            "status": "returned",
+            "return_date": "2026-08-25 19:18:38"
+        },
+        {
+            "transaction_id": "T-SJ355",
+            "member_name": "pravesh",
+            "book_name": "precious",
+            "borrowed_copies": 2,
+            "issued_date": "2026-08-25 19:18:20",
+            "deadline": "2026-09-08 19:18:20",
+            "status": "borrowed",
+            "return_date": null
+        }
+    ]
+}
