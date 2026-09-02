@@ -1,0 +1,115 @@
+{
+    "cells": [
+        {
+            "cell_type": "code",
+            "execution_count": null,
+            "id": "03f32b81-b475-4eec-883f-ced0d615332a",
+            "metadata": {},
+            "outputs": [],
+            "source": []
+        }
+    ],
+    "metadata": {
+        "kernelspec": {
+            "display_name": "Python [conda env:base] *",
+            "language": "python",
+            "name": "conda-base-py"
+        },
+        "language_info": {
+            "codemirror_mode": {
+                "name": "ipython",
+                "version": 3
+            },
+            "file_extension": ".py",
+            "mimetype": "text/x-python",
+            "name": "python",
+            "nbconvert_exporter": "python",
+            "pygments_lexer": "ipython3",
+            "version": "3.13.9"
+        }
+    },
+    "nbformat": 4,
+    "nbformat_minor": 5,
+    "account": [
+        {
+            "Account_id": "A-F3YR5",
+            "Name": "khuhsi",
+            "Phone": "9466667012",
+            "Account_type": "savings",
+            "Balance": 20000
+        },
+        {
+            "Account_id": "A-OND88",
+            "Name": "vvk",
+            "Phone": "8307041915",
+            "Account_type": "savings",
+            "Balance": 20000
+        },
+        {
+            "Account_id": "A-CUM6B",
+            "Name": "boka",
+            "Phone": "8708763318",
+            "Account_type": "savings",
+            "Balance": 50749
+        },
+        {
+            "Account_id": "A-9SXCR",
+            "Name": "jeevika",
+            "Phone": "8908789908",
+            "Account_type": "savings",
+            "Balance": 6000
+        },
+        {
+            "Account_id": "A-TOU47",
+            "Name": "vivek",
+            "Phone": "9050663318",
+            "Account_type": "savings",
+            "Balance": 5400
+        }
+    ],
+    "money": [],
+    "transaction": [
+        {
+            "Transaction_id": "T-WTXYY",
+            "Account_id": "A-TOU47",
+            "Type": "deposit",
+            "Amount": 3456,
+            "date": "2026-09-02 17:21:29",
+            "balance_after": 8856
+        },
+        {
+            "Transaction_id": "T-U1CI8",
+            "Account_id": "A-TOU47",
+            "Type": "deposit",
+            "Amount": 200,
+            "date": "2026-09-02 17:21:54",
+            "balance_after": 9056
+        },
+        {
+            "Transaction_id": "T-4X1KB",
+            "Account_id": "A-TOU47",
+            "Type": "withdraw",
+            "Amount": 3456,
+            "date": "2026-09-02 17:22:23",
+            "balance_after": 5600
+        },
+        {
+            "Account_id": "A-TOU47",
+            "Type": "Transfer sent",
+            "Transaction_id": "T-6S6CX",
+            "Amount": 200,
+            "to_account": "A-CUM6B",
+            "date": "2026-09-02 17:24:24",
+            "balance_after": 5400
+        },
+        {
+            "Account_id": "A-CUM6B",
+            "Type": "Transfer recieve",
+            "Transaction_id": "T-9APPY",
+            "Amount": 200,
+            "from_account": "A-TOU47",
+            "date": "2026-09-02 17:24:24",
+            "balance_after": 50749
+        }
+    ]
+}
